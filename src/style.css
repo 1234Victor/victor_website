@@ -259,8 +259,6 @@ html {
     z-index: -1;
     background-image: var(--image-gradient), url("./background.jpg");
     background-size:cover;
-
-    background-repeat: repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
   }
@@ -607,7 +605,8 @@ html {
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    background-image: var(--image-gradient), url("./background.jpg");
+    background-size:cover;
     color: white !important;
   }
   
