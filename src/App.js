@@ -3,7 +3,8 @@ import './App.css';
 import Home from "./Components/Home/home"
 import NavBar from "./Components/header"
 import {BrowserRouter as Router, Route, Routes, Navigate} from "react-router-dom";
-import "./style.css"
+import "./style.css";
+import ResumeNew from "./Components/Resume/reumse"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path = "/" element = {<Home />} />
+          <Route path = "resume" element = {<ResumeNew />} />
         </Routes>
       </Router>
     </div>
