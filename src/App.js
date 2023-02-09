@@ -28,6 +28,7 @@ function App() {
           <Route path = "/" element = {<Home />} />
           <Route path = "projects" element = {<Projects />} />
           <Route path = "resume" element = {<ResumeNew />} />
+          <Route element = {<div>fdadf</div>} />
         </Routes>
         <Footer />
       </Router>
