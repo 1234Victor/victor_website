@@ -25,9 +25,9 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path = "/" element = {<Home />} />
-          <Route path = "projects" element = {<Projects />} />
-          <Route path = "resume" element = {<ResumeNew />} />
+          <Route exact path = "/" element = {<Home />} />
+          <Route exact path = "projects" element = {<Projects />} />
+          <Route exact path = "resume" element = {<ResumeNew />} />
           <Route element = {<div>fdadf</div>} />
         </Routes>
         <Footer />
