@@ -8,6 +8,7 @@ import ResumeNew from "./Components/Resume/reumse"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./Components/Project/Projects";
 import Footer from "./Components/footer";
+import About from "./Components/About/About"
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -28,6 +29,7 @@ function App() {
           <Route exact path = "/" element = {<Home />} />
           <Route exact path = "projects" element = {<Projects />} />
           <Route exact path = "resume" element = {<ResumeNew />} />
+          <Route exact path = "about" element = {<About />} />
           <Route element = {<div>fdadf</div>} />
         </Routes>
         <Footer />
