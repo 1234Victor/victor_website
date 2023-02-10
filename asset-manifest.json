@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.32a40aee.css",
-    "main.js": "/static/js/main.dd336a92.js",
+    "main.css": "/static/css/main.2086d35d.css",
+    "main.js": "/static/js/main.8a1061ff.js",
     "static/js/787.93bd8e9c.chunk.js": "/static/js/787.93bd8e9c.chunk.js",
     "static/media/background.jpg": "/static/media/background.72d9b26e106ac16c36ae.jpg",
     "static/media/uoftsofa.png": "/static/media/uoftsofa.e56d672260f720a18503.png",
     "static/media/Weian Deng Resume.pdf": "/static/media/Weian Deng Resume.f2057f46bd8f88bc6465.pdf",
     "static/media/icon4.png": "/static/media/icon4.11eb50bb1ed47812df30.png",
+    "static/media/icon6.png": "/static/media/icon6.6c96bcfec0e8d58b3165.png",
     "static/media/icon3.png": "/static/media/icon3.b000ffa6d48b161b1086.png",
     "static/media/icon5.png": "/static/media/icon5.2e1e6930554de4d55cdb.png",
     "index.html": "/index.html",
-    "main.32a40aee.css.map": "/static/css/main.32a40aee.css.map",
-    "main.dd336a92.js.map": "/static/js/main.dd336a92.js.map",
+    "main.2086d35d.css.map": "/static/css/main.2086d35d.css.map",
+    "main.8a1061ff.js.map": "/static/js/main.8a1061ff.js.map",
     "787.93bd8e9c.chunk.js.map": "/static/js/787.93bd8e9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a40aee.css",
-    "static/js/main.dd336a92.js"
+    "static/css/main.2086d35d.css",
+    "static/js/main.8a1061ff.js"
   ]
 }
