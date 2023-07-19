@@ -9,27 +9,27 @@ function AboutCard(){
             <Card.Body>
                 <blockquote className = "blockquote mb-0">
                     <p style = {{textAlign: "justify"}}>
-                        Hi Everyone, I am <span className = "purple">Victor Deng</span>
+                        Hi Everyone, I am <span className = "purple">Victor Deng </span>
                         from <span className = "purple"> Toronto, Canada.</span>
-                        <br/> I am a first year Computer Engineering student at Univeristy of Toronto.
+                        <br/> I am a second year Computer Engineering student at Univeristy of Toronto.
                         <br/> 
                         <br/>
                         Apart from coding, some other activities that I love to do!
                     </p>
                     <ul>
                         <li className = "about-activity">
-                            <ImPointRight /> Playing Games
+                            <ImPointRight /> Playing Basketball
                         </li>
                         <li className = "about-activity">
-                            <ImPointRight /> Playing Games
+                            <ImPointRight /> Reading Novels
                         </li>
                         <li className = "about-activity">
-                            <ImPointRight /> Playing Games
+                            <ImPointRight /> Listening to Music
                         </li>
                     </ul>
 
-                    <p style = {{color: "rgb(155 126 172)"}}>
-                        "Yes or No"
+                    <p style = {{color: "#61dafb"}}>
+                        "It is never a bad idea to learn something new."
                     </p>
                     <footer className = "blockquote-footer">Victor</footer>
                 </blockquote>

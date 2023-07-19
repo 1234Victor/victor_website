@@ -8,7 +8,7 @@ function Type(){
             strings:[
                 "Frontend Developer",
                 "CompEng Student @UofT",
-                "Android App Developer"
+                "Full Stack Developer"
             ],
             autoStart: true,
             loop:true,
