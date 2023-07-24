@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./Components/Project/Projects";
 import Footer from "./Components/footer";
 import About from "./Components/About/About"
+import Blog from "./Components/Blog/blog"
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -30,7 +31,8 @@ function App() {
           <Route exact path = "projects" element = {<Projects />} />
           <Route exact path = "resume" element = {<ResumeNew />} />
           <Route exact path = "about" element = {<About />} />
-          <Route element = {<div>fdadf</div>} />
+          <Route exact path = "blog" element = {<Blog />} />
+          <Route exact path = "" element = {<Home />} />
         </Routes>
         <Footer />
       </Router>

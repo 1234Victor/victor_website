@@ -30,7 +30,7 @@ function NavigationBar() {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src = {myImg}  className="img-fluid logo" alt="Victor" />
+                    <img src={myImg} className="img-fluid logo" alt="Victor" />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -61,7 +61,7 @@ function NavigationBar() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link                                as={Link}
+                            <Nav.Link as={Link}
                                 to="/projects"
                                 onClick={() => updateExpanded(false)}
                             >
@@ -76,6 +76,16 @@ function NavigationBar() {
                                 onClick={() => updateExpanded(false)}
                             >
                                 <CgFileDocument style={{ marginBottom: "2px" }} />Resume
+                            </Nav.Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/blog"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <CgFileDocument style={{ marginBottom: "2px" }} />Blog
                             </Nav.Link>
                         </Nav.Item>
                     </Nav>

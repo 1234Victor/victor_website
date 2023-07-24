@@ -1,44 +1,34 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { Container, Row, Col } from "react-bootstrap";
+import BlogCard from "./BlogCard";
 
-function ProjectCard(props) {
+
+function blog() {
     return (
-        <Card className="project-card-view">
-            <Card.Img variant="top" src={props.imgPath} alt="card-img" style = {{width:'100%',height: '200px'}}/>
-            <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text style={{ textAlign: "justify" }}>
-                    <h6>Skillset:</h6> <span style = {{color: "#61dafb"}}>{props.skill}</span>
-                </Card.Text>
-                <Card.Text style={{ textAlign: "justify" }}>
-                    {props.description}
-                </Card.Text>
-                <Button variant="primary" href={props.ghLink} target="_blank">
-                    <BsGithub /> &nbsp;
-                    {props.isBlog ? "Blog" : "GitHub"}
-                </Button>
-                {"\n"}
-                {"\n"}
+        <section>
+            <Container fluid className="blog-section" id="blog">
+                <container className="blog-content">
+                    <Row className="blog-header">
+                        <h1 style={{ color: "white" }} className="blog-heading">
+                            Victor's <strong className="purple">Blog</strong>
+                        </h1>
+                    </Row>
+                    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                        <Col md={4} className="blog-card">
+                            <BlogCard
 
-                {!props.isBlog && props.demoLink && (
-                    <Button
-                        variant="primary"
-                        href={props.demoLink}
-                        target="_blank"
-                        style={{ marginLeft: "10px" }}
-                    >
-                        <CgWebsite /> &nbsp;
-                        {"Demo"}
-                    </Button>
-                )}
-            </Card.Body>
-        </Card>
-
-        
+                                skill="Python"
+                                title="Blog 1"
+                                description="My first blog"
+                                bloglink="www.weiandeng.com"
+                                readingTime="5min"
+                            />
+                        </Col>
+                    </Row>
+                </container>
+            </Container>
+        </section>
     );
 }
 
-export default ProjectCard;
+export default blog;
